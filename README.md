@@ -12,16 +12,22 @@ CC can be deployed as a mobile app or a website. User can interact with their co
 
 ## First-Party Projects
 The project CC comes along with several first-party projects before more developers join this community.
+### Organizer 
+Organizer is a service control panel based on [Kubernetes][k8s]. It helps individual users deploying and managing containerized connectable services on personal servers easily.
+
 ### Connector
 Connector is a router for connectable projects. It saves user from connecting to all different servers directly from their CC, and it helps monitoring the services' status.
 
 Connector needs to be deployed on an public server. It connects with other connectable services and the Connectable Center, relaying transmissions between them. 
 
 CC users can connects only with the Connector and save all their connections on it. This is particularly helpful when the user wants to use CC from multiple devices and in different network environments. 
+
 ### Keeper
 Keeper is a basic personal file storage service. It is projected that Keeper will support multiple file transmission protocols including http, websocket, ftp, and nfs.
+
 ### Exchanger
 Exchanger is an interpersonal information exchange service. It provides secure chatting and file sharing functions and can also serve as a decentralized social network.
+
 ## Start Guide
 UNDER CONSTRUCTION
 
@@ -30,3 +36,4 @@ UNDER CONSTRUCTION
 
 [tcm]: <https://connectable.rarea.net/>
 [rn]: <https://facebook.github.io/react-native/>
+[k8s]: <https://kubernetes.io/>
