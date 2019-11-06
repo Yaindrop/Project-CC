@@ -1,44 +1,51 @@
 # Project CC
-Inspired by [The Connectable Manifesto][tcm], Project CC is an ecosystem of connectable services aiming at providing better user experiences for individual users. 
+Inspired by [The Connectable Manifesto][tcm], Project CC defines an ecosystem of connectable services which is aimied at providing better user experiences for individual user. 
 
-Project CC consists of the Connectable Center and a series of compatible connectable projects.
+The ecosystem of Project CC is made up of the Connectable Center and a series of compatible connectable projects.
 
 ## Connectable Center
-Connectable Center (CC) is a front-end container for connectable services powered by [React Native][rn]. It hosts the UI for all connected services and provides easy UI customization for user. 
+Connectable Center (CC) is a front-end container for connectable services powered by [React Native][rn], which hosts UI for different connected services and provides easy UI customization for user. 
 
-Connectable Service that is compatible with the Project CC should provide specific APIs designed for CC, which include a list of all available APIs, an implementation of the default UI, and the ability to upload customized UI. 
+Connectable Services that are compatible with the Project CC should provide specific APIs designed for CC, which include a listing of all available APIs, code for implementation of the default UI, and a function to upload customized UI. 
 
-CC can be deployed as a mobile app or a website. User can interact with their connectable services inside CC and customize their UI as they wish. CC will provide a simple building-block-style UI designer and also a choice for source code editing. 
+CC can be deployed as a mobile app or a website. Once a compatible service is connected, the stored UI design will be downloaded onto CC as ReactJS code, and then applied via hot-update.
 
-## First-Party Projects
-The project CC comes along with several first-party projects before more developers join this community.
+User can interact with connected services inside CC and customize their UI as they wish. CC will provide a simple building-block style UI designer and a choice for source code editing as well. 
+
+## First-Party Services
+The Project CC comes along with several first-party services before more developers join this community.
 
 ### Organizer 
-Organizer is a service control panel based on [Kubernetes][k8s]. It helps individual users deploying and managing containerized connectable services on personal servers easily. 
+Organizer is a control panel for connectable services deployed on [Kubernetes][k8s]. 
+
+Organizer helps individual user deploying and managing containerized connectable services on personal servers easily. 
 
 ### Connector
-Connector is a router for connectable projects. It saves user from connecting to all different servers directly from their CC, and it helps monitoring the services' status.
+Connector is a router for connectable services. 
 
-Connector needs to be deployed on an public server. It connects with other connectable services and the Connectable Center, relaying transmissions between them. 
+Connector saves user from connecting to all different servers directly from their CC. User can connects their CC only with Connector. and Connector will relay transmissions between the user and other connectable services. 
 
-CC users can connects only with the Connector and save all their connections on it. This is particularly helpful when the user wants to use CC from multiple devices and in different network environments. 
+Connector also saves user's connection configurations. This is particularly helpful when the user wants to use CC on multiple devices and in different network environments. 
+
+### Authenticator
+Authenticator is a vault that keeps the credentials for other connectable services. 
+
+With the credentials stored by Authenticator, user can use different connectable services directly without having to enter credentials individually. 
 
 ### Keeper
-Keeper is a basic personal file storage service. 
+Keeper is a personal file storage service providing basic NAS functions. 
 
 It is projected that Keeper will support multiple file transmission protocols including http, websocket, ftp, and nfs.
 
 ### Exchanger
-Exchanger is an interpersonal information exchange service. It provides secure chatting and file sharing functions.
+Exchanger is an interpersonal information exchange service providing chatting and file sharing functions.
 
 It is projected that Exchanger will also serve as a decentralized social network for multiple users. 
 
-### Authenticator
-Authenticator ia a vault that keeps the credentials for other connectable services. 
+## Community Projects
+UNDER CONSTRUCTION
 
-With the credentials stored by Authenticator, users can directly use their services without having to enter credentials individually. 
-
-## Start Guide
+## Quick Start Guide
 UNDER CONSTRUCTION
 
 ## Document
