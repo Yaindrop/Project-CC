@@ -1,5 +1,5 @@
 # Project CC
-Inspired by [The Connectable Manifesto][tcm], Project CC defines an ecosystem of connectable services which is aimied at providing better user experiences for individual user. 
+Inspired by [The Connectable Manifesto][tcm], Project CC defines an ecosystem of connectable services aimed at providing better user experiences for individual user. 
 
 The ecosystem of Project CC is made up of the Connectable Center and a series of compatible connectable projects.
 
